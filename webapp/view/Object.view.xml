@@ -21,15 +21,26 @@
 		</semantic:titleHeading>
 
 		<semantic:headerContent>
-			<form:SimpleForm		layout = "ResponsiveGridLayout"  >
+			<Panel  headerText = "List"  expandable = "true"  expanded = "true"  >
+				<form:SimpleForm  layout = "ResponsiveGridLayout"  >
+	<!--				<List  items = "{ODMdl2>/wrkintSet}"  width = "500px" >
+						<StandardListItem  title = "{ODMdl2>Userid}"
+										   description="{ODMdl2>Firstname}"
+										   counter = "{ODMdl2>Internalnumb}" />
+					</List>-->
+				</form:SimpleForm>
+			</Panel>
 				
-				
-				<Label  text = ""  />
-				<Button  text = "List Record View"  width = "250px"  type = "Emphasized"  press = "EH_2List"  />
-				
-				<Label  text = ""  />
-				<Button  text = "Table Record View"  width = "250px"  type = "Emphasized" press = "EH_2Tbl"  />
-			</form:SimpleForm>
+			<Panel  headerText = "Navigation" expandable = "true"  expanded = "true" >
+				<form:SimpleForm		layout = "ResponsiveGridLayout"  >					
+					<Label  text = ""  />
+					<Button  text = "List Record View"  width = "250px"  type = "Emphasized"  press = "EH_2List"  />
+					
+					<Label  text = ""  />
+					<Button  text = "Table Record View"  width = "250px"  type = "Emphasized" press = "EH_2Tbl"  />
+				</form:SimpleForm>					
+			</Panel>
+			
 		</semantic:headerContent>
 
 		<semantic:sendEmailAction>
