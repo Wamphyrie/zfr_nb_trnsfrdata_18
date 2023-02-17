@@ -13,6 +13,9 @@ controllerName="phoenix.zfr_nb_trnsfrdata_18.controller.vwlist"
 						<form:SimpleForm  layout = "ResponsiveGridLayout"  >
 						<Label  text = "In List View"  />
 						<Text  text = "Something" />
+						
+						<Label  text =  "" />
+						<Button  text = "Back to Object View"  type = "Emphasized"  width = "250px" press = "EH_b2Obj" />
 					</form:SimpleForm>
 				</content>
 			</Page>

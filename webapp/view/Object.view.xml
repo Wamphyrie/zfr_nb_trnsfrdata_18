@@ -27,8 +27,8 @@
 				<Label  text = ""  />
 				<Button  text = "List Record View"  width = "250px"  type = "Emphasized"  press = "EH_2List"  />
 				
-<!--				<Label  text = ""  />
-				<Button  text = "Table Record View"  width = "250px"  type = "Emphasized" press = "EH_2Tbl"  />-->
+				<Label  text = ""  />
+				<Button  text = "Table Record View"  width = "250px"  type = "Emphasized" press = "EH_2Tbl"  />
 			</form:SimpleForm>
 		</semantic:headerContent>
 

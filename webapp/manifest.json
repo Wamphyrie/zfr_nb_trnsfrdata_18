@@ -106,10 +106,16 @@
 				"target": ["object"]
 			}, {
 				"name": "vwlist",
-				"pattern": "",
+				"pattern": "vwlist",
 				"titleTarget": "",
 				"greedy": false,
 				"target": ["vwlist"]
+			}, {
+				"name": "vw_tbl",
+				"pattern": "vw_tbl",
+				"titleTarget": "",
+				"greedy": false,
+				"target": ["vw_tbl"]
 			}],
 			"targets": {
 				"worklist": {
@@ -140,6 +146,15 @@
 					"title": "Selected List Record",
 					"viewId": "vwlist",
 					"viewLevel": 3
+				},
+				"vw_tbl": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "vw_tbl",
+					"title": "Selected Table Record",
+					"viewId": "vw_tbl",
+					"viewLevel": 4
 				}
 			}
 		}

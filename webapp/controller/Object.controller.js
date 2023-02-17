@@ -151,14 +151,14 @@ sap.ui.define([
 				oResourceBundle.getText("shareSendEmailObjectMessage", [sObjectName, sObjectId, location.href]));
 			},
 			
-			EH_2List : function()
+			EH_2List : function ()
 			{
 				this.getOwnerComponent().getRouter().navTo("vwlist",{},false);
 			},
 			
-			EH_2Tbl : function()
+			EH_2Tbl : function ()
 			{
-				this.getOwnerComponent().getRouter().navTo("view_tbl",{},false);
+				this.getOwnerComponent().getRouter().navTo("vw_tbl",{},false);
 			}
 
 		});
