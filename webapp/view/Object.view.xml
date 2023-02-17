@@ -1,6 +1,10 @@
 <mvc:View
 	controllerName="phoenix.zfr_nb_trnsfrdata_18.controller.Object"
 	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:layout="sap.ui.layout"
+	xmlns:form="sap.ui.layout.form"
+	xmlns:unified="sap.ui.unified"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns:semantic="sap.f.semantic"
 	xmlns:footerbar="sap.ushell.ui.footerbar">
@@ -17,13 +21,15 @@
 		</semantic:titleHeading>
 
 		<semantic:headerContent>
-			<ObjectNumber
-				number="{
-					path: 'Salary',
-					formatter: '.formatter.numberUnit'
-				}"
-				numberUnit="{Country}"
-			/>
+			<form:SimpleForm		layout = "ResponsiveGridLayout"  >
+				
+				
+				<Label  text = ""  />
+				<Button  text = "List Record View"  width = "250px"  type = "Emphasized"  press = "EH_2List"  />
+				
+<!--				<Label  text = ""  />
+				<Button  text = "Table Record View"  width = "250px"  type = "Emphasized" press = "EH_2Tbl"  />-->
+			</form:SimpleForm>
 		</semantic:headerContent>
 
 		<semantic:sendEmailAction>
