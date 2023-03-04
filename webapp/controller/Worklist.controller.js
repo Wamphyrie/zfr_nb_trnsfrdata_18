@@ -9,6 +9,7 @@ sap.ui.define([
 	], function (BaseController, JSONModel, History, formatter, Filter, FilterOperator) {
 		"use strict";
 
+
 		return BaseController.extend("phoenix.zfr_nb_trnsfrdata_18.controller.Worklist", {
 
 			formatter: formatter,

@@ -1,6 +1,9 @@
 <mvc:View
 	controllerName="phoenix.zfr_nb_trnsfrdata_18.controller.Worklist"
 	xmlns="sap.m"
+	xmlns:layouut="sap.ui.layout"
+	xmlns:form="sap.ui.form"
+	xmlns:unified="sap.ui.unified"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns:semantic="sap.f.semantic"
 	xmlns:footerbar="sap.ushell.ui.footerbar">
@@ -15,6 +18,10 @@
 		</semantic:titleHeading>
 
 		<semantic:content>
+			<form:SimpleForm  layout = "ResponsiveGridLayout"  >
+				<Label text = "Testing"  />
+				<Text  text =  "See this?" />
+ 		</form:SimpleForm>
 			<Table
 				id="table"
 				width="auto"
